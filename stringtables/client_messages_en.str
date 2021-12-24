@@ -1,0 +1,630 @@
+﻿client_default_name				Maliken
+
+error_title						Error
+error_unknown					Unknown error.
+error_memory_not_enough			Your system memory is not enough!\nPlease quit other running applications and run Heroes of Newerth again.
+error_key_file_damaged			Some of your game key files are damaged!\nPlease re-install Heroes of Newerth.
+
+disconnect_auth_failed				The server could not authorize your account. Please try logging in again.
+disconnect_banned					You are no longer allowed to join this match because you exceeded the maximum allowed number of unsuccessful reconnection attempts.
+disconnect_basic					Basic accounts cannot create games.
+disconnect_client_number_mismatch	Connection error, please try again in a moment.
+disconnect_duplicate_connect		You have been disconnected because another client connected to the game using the same account.
+disconnect_duplicate_game_connect	You have been disconnected because another client has started playing a different game on this account.
+disconnect_duplicate_login			The server could not authorize your account. You must stay logged in to play.
+disconnect_failed_refresh			Error when refreshing upgrades. You have been logged out.
+disconnect_flooding					You have been disconnected for flooding the server.
+disconnect_game_in_progress			The game you are attempting to join is already in progress.
+disconnect_game_over				The game has ended.
+disconnect_idle						You have been disconnected for being idle.
+disconnect_invalid_psr				Your PSR is either too high or too low for this game.
+disconnect_invalid_tier				You are not allowed to play games in this tier.
+disconnect_kicked					You have been kicked from the game by the host.
+disconnect_kicked_mentor			You have been kicked from the game by the player you were mentoring.
+disconnect_kicked_spec				You have been kicked from the game by the player you were spectating.
+disconnect_leaver					You are not allowed to join this game because your leaver percentage is too high.
+disconnect_match_neverending		The match has been aborted because its length has exceeded the maximum match length.
+disconnect_max_spec_clients			Can't expand the spectator team further; the maximum number of clients has been reached.
+disconnect_missing_spectate_player	The player you were attempting to spectate is not in the match. You have been disconnected.
+disconnect_mm_connect_timeout		It has taken too long for all of the players to establish a valid connection to the server.
+disconnect_mm_players_left			One or more players have disconnected from the match.
+disconnect_mm_player_left			A player has left the match.
+disconnect_mm_start_timeout			It has taken too long for all of the players to finish loading.
+disconnect_modified_core_files		Your resources0.s2z file has been modified.  This file must NOT be changed!  Re-install Heroes of Newerth.
+disconnect_not_accepted				The player you are attempting to spectate or mentor did not accept your request.
+disconnect_not_host					You must have host privileges to start a game on this server.
+disconnect_not_invited				You do not have an invitation to join this private game.
+disconnect_not_on_roster			You are not on the roster for this arranged match.
+disconnect_not_verified				You are not allowed to join this game because you are not Verified.
+disconnect_no_cookie				You must be logged in to play on this server.
+disconnect_no_inception_mentor		Mentors cannot be spectated or mentored themselves. You have been disconnected.
+disconnect_no_inception_spectator	Spectators cannot be mentored or spectated themselves. You have been disconnected.
+disconnect_no_match_id				The server failed to retrieve a match ID and was unable to start the match.
+disconnect_no_mods_allowed			You have been disconnected from the game because modded files were detected on your system.  Please remove them and reconnect.
+disconnect_no_tokens				You need tokens or a pass to play this mode.
+disconnect_overflow					You have been disconnected from the server due to a packet overflow.
+disconnect_server_error				Server error.
+disconnect_server_full				The server is full.
+disconnect_snapshot_fragment		Too many snapshot fragments.
+disconnect_staff_spec_not_staff		You can only become a staff spectator on a staff account.
+disconnect_terminated				You have exceeded the maximum disconnection time and are no longer allowed to rejoin this game.
+disconnect_timeout					No response from server.
+disconnect_title					Disconnected
+disconnect_too_many_player_spectators			The player you are attempting to spectate or mentor already has the maximum allowed.
+disconnect_too_many_player_spectators_total		The server already has the maximum number of player spectators or mentors.
+disconnect_tourney_rules_no_spec 	Player spectators and mentors are not allowed in a Tournament Rules match.
+disconnect_trial_not_allowed		You are not allowed to connect to this match with a trial account. Trial accounts are restricted to "no stats" matches only.
+disconnect_unassigned				The host started the game while you were not on a team.
+disconnect_unique_login_failed		You have been disconnected because the game server could not authorize your account. Please try again later.
+disconnect_unknown					You have been disconnected.
+disconnect_vote_kicked				You have been kicked from the game by a vote.
+disconnect_disconnected				Disconnected
+
+rejected_invalid_request		Your client sent an invalid connection request.
+rejected_empty_address			The server failed to determine your address.
+rejected_wrong_game				This server is running a different game.
+rejected_wrong_version			Your version does not match the server's.
+rejected_banned					You are banned from this server.
+rejected_invalid_password		Invalid password.
+rejected_server_error			Server Error.
+rejected_server_taken			Someone else is already starting a game on the server you selected. Please try again.
+rejected_not_host				You must have host privileges to start a game on this server.
+rejected_missing_spectate_player			Could not find the player you chose to spectate.
+
+// chat system messages
+chat_connecting						^279* Connecting to chat server...
+chat_reconnecting					^279* Connecting to chat server... (Attempt {attempt} of {maxattempts})
+chat_waiting_verification			^279* Waiting for chat server to verify identity...
+chat_connected						^279* Connected!
+chat_connected_invisible			^279* You are now connected in invisible mode. While in this mode your client will not send status updates to friends and clan members, but you will still receive status updates from them as if you were online.
+chat_disconnected					^279* Disconnected from chat server.
+chat_reconnecting_delay				^279* Reconnecting in 30 seconds (Attempt {attempt} of {maxattempts}).
+chat_not_connected					^279* You are not connected to the chat server.
+chat_new_channel					^279* Now talking in channel ^090{channel}^279.
+chat_channel_message				^990{sender}:^888 {message}
+chat_channel_message_sent			^444{name}:^* {message}
+chat_group_channel_message			^279 {message}
+chat_whisper						^099(Whisper from {sender}) ^888{message}
+chat_whisper_sent					^066(Whispered to {target}) ^888{message}
+chat_whisper_buddies				^066<Whispered to Buddies> {message}
+chat_whisper_to_buddies				^099<{sender} Whispered to Buddies> {message}
+chat_whisper_failed_self			^279* You cannot whisper yourself.
+chat_failed_invisible				^279* You cannot chat while you are in invisible mode.
+chat_mode_switch_fail				^279* You cannot change your chat status while you are in invisible mode.  Please log out and log back in normally to use this feature.
+chat_mode_afk_auto_response			^099* Your message was delivered but ^990{target}^279 is currently away from keyboard: {message}
+chat_mode_afk_default_response		Away from keyboard
+chat_mode_dnd_auto_response			^099 Your message was not delivered, ^990{target}^279 does not want to be disturbed: {message}
+chat_mode_dnd_default_response		Do not disturb
+chat_user_offline					^279* That player is not online.
+chat_im								^882{sender}: ^888{message}
+chat_im_sent						^444{name}: ^888{message}
+chat_im_failed						^279* ^990{target}^279 is not online.
+chat_clan_whisper					^359(Clan) {name}: ^888{message}
+chat_clan_whisper_sent				^458(Clan) {name}: ^888{message}
+chat_clan_whisper_failed			^279* You are not in a clan.
+chat_clan_im						^359{name}: ^888{message}
+chat_clan_im_sent					^458{name}: ^888{message}
+chat_flooding						^279* Message not sent - You are sending too many messages. Please wait several seconds and try again.
+chat_max_channels					^279* You cannot join any more channels at this time, leave another first.
+chat_banned							^279* Disconnected - You are banned from the chat server for {time} minutes.
+chat_banned_connections				^279* Reason: Too many connection attempts.
+chat_banned_flooding				^279* Reason: Flooding.
+chat_banned_unknown					^279* Reason: Unknown.
+chat_banned_reconnect				^279* Attempting reconnection (Attempt {attempt} of {maxattempts}) in {time} seconds.
+chat_info_not_found					^279* The user '^990{name}^279' could not be found.
+chat_info_offline					^279* ^990{name}^279 is currently offline, last seen at {seen}.
+chat_info_online_no_channels		^279* ^990{name}^279 is currently online and in no channels.
+chat_info_online_one_channel		^279* ^990{name}^279 is currently online and in the channel '{channel}'.
+chat_info_online_multi_channels		^279* ^990{name}^279 is currently online and in the following channels: {channels}
+chat_info_joining_game				^279* ^990{name}^279 is currently online and connecting to a game.
+chat_info_in_game					^279* ^990{name}^279 is currently online and in the game '{game}^279'.
+chat_info_in_game_time				^279* ^990{name}^279 is currently online and in the game '{game}^279'. Current game time: {cgt}.
+chat_ignored						^279* ^990{name}^279 is now being ignored.
+chat_unignored						^279* ^990{name}^279 is no longer being ignored.
+chat_joining_game					^279* Joining game '^990{name}^279'.
+chat_left_game						^279* You have left the game.
+chat_user_info_online				^279* ^990{name}^279 is currently online.
+chat_user_info_offline				^279* ^990{name}^279 is currently offline.
+chat_user_info_in_game				^279* ^990{name}^279 is currently in the game '{game}'.
+chat_saving_channel					^279* Saving ^g{channel}^279 to your auto join channel list...
+chat_failed_saving_channel			^279* Failed saving ^g{channel}^279 to your auto join channel list...
+chat_invalid_channel				^279* Unable to save ^g{channel}^279 to your auto join channel list, it is a group channel or it contains an invalid character. (% or ^)
+chat_removing_channel				^279* Removing ^g{channel}^279 from your auto join channel list...
+chat_failed_removing_channel		^279* Failed to remove ^g{channel}^279 from your channel list...
+chat_failed_saving_notification		^279* Failed to save the notification...
+chat_failed_removing_notification	^279* Failed to remove the notification id {id}...
+chat_failed_removing_notifications	^279* Failed to remove all notifications...
+chat_invalid_buddy_group			^279* Unable to move ^990{buddy}^279 to the friend group ^g{group}^279, the group name contains an invalid character. (% or ^)
+chat_saving_buddy_group				^279* Moving ^990{buddy}^279 to the friend group ^g{group}^279...
+chat_removing_buddy_group			^279* Removing ^990{buddy}^279 from their friend group...
+chat_saved_buddy_group				^279* Moved ^990{buddy}^279 to the friend group ^g{group}^279...
+chat_removed_buddy_group			^279* Removed ^990{buddy}^279 from their friend group...
+chat_failed_buddy_group				^279* Failed to change the friend group for ^990{buddy}^279...
+chat_adding_buddy					^279* Adding ^990{name}^279 as a friend...
+chat_failed_buddy_add				^279* Failed to add ^990{target}^279 to your friend list.
+chat_failed_buddy_add_self			^279* You cannot add yourself as a friend.
+chat_failed_buddy_remove_self		^279* You cannot remove yourself as a friend.
+chat_failed_buddy_add_duplicate		^279* That user is already on your friend list.
+chat_failed_buddy_add_reason		^279* Failed to add ^990{target}^279 to your friend list: {reason}
+chat_failed_buddy_remove			^279* Failed to remove ^990{target}^279 from your friend list.
+chat_failed_buddy_remove_not_found	^279* Failed to remove user from your friend list: User not found.
+chat_approved_buddy_adder			^279* Adding ^990{name}^279 as a friend.
+chat_approved_buddy_added			^279* ^990{name}^279 added you as a friend.
+chat_requesting_buddy				^279* Requesting ^990{name}^279 as a friend...
+chat_requested_approval_adder		^279* You requested ^990{name}^279 as a friend...
+chat_requested_approval_added		^279* ^990{name}^279 requested you as a friend...
+chat_requested_approval_failed		^279* Failed to request ^990{name}^279 as a friend...
+chat_requested_approval_duplicate	^279* Either you or the user ^990{name}^279 has recently initiated an add friend request, please wait one minute before re-requesting them...
+chat_requested_approval_ignored		^279* The user ^990{name}^279 has you on their ignore list, unable to request them as a friend.
+chat_requested_approval_limit		^279* You have reached your limit of friends.
+chat_approving_buddy				^279* Approving ^990{name}^279 as a friend...
+chat_failed_approving_buddy			^279* Failed to approve ^990{name}^279 as a friend...
+chat_clan_promoting					^279* Promoting clan member ^990{name}^279 to officer...
+chat_failed_clan_promote			^279* Failed to promote ^990{target}^279.
+chat_failed_clan_promote_cannot_promote		^279* You cannot promote that user.
+chat_failed_clan_promote_generic			^279* Failed to promote user.
+chat_clan_demoting					^279* Demoting clan member ^990{name}^279...
+chat_failed_clan_demote				^279* Failed to demote ^990{target}^279.
+chat_failed_clan_demote_cannot_demote	^279* You cannot demote that user.
+chat_failed_clan_demote_generic			^279* Failed to demote user.
+chat_clan_removing					^279* Removing clan member ^990{name}^279...
+chat_clan_removing_self				^279* Attempting to leave the clan...
+chat_failed_clan_remove				^279* Failed to remove ^990{target}^279 from the clan.
+chat_failed_clan_remove_self		^279* Failed to leave the clan.
+chat_failed_clan_remove_demote		^279* That user must be demoted before they can be removed.
+chat_failed_clan_remove_generic		^279* Failed to remove user from the clan.
+chat_failed_clan_name				^279* Failed to check clan name and tag for availability, please try again.
+chat_failed_clan_name_tip			Failed to check clan name and tag for availability, please try again.
+chat_invalid_clan_name				^279* The clan name ^990{name}^279 and tag ^990{tag}^279 is not available.
+chat_invalid_clan_name_tip			The clan name ^990{name}^* and tag ^990{tag}^* is not available.
+chat_invalid_clan_name_used			^279* The clan name ^990{name}^279 is already in use.
+chat_invalid_clan_name_used_tip		The clan name ^990{name}^* is already in use.
+chat_invalid_clan_tag_used			^279* The clan tag ^990{tag}^279 is already in use.
+chat_invalid_clan_tag_used_tip		The clan tag ^990{tag}^* is already in use.
+chat_invalid_clan_name_format		^279* The clan name ^990{name}^279 is not a valid clan name. It must consist of alphanumeric characters, dashes and spaces, and be 1 to 32 characters in length.
+chat_invalid_clan_name_format_tip	The clan name ^990{name}^* is not a valid clan name. It must consist of alphanumeric characters, dashes and spaces, and be 1 to 32 characters in length.
+chat_invalid_clan_tag_format		^279* The clan tag ^990{tag}^279 is not a valid clan tag. It must consist of alphanumeric characters and be 1 to 4 characters in length.
+chat_invalid_clan_tag_format_tip	The clan tag ^990{tag}^* is not a valid clan tag. It must consist of alphanumeric characters and be 1 to 4 characters in length.
+chat_success_buddy_add				^279* Added ^990{target}^279 to your friend list.
+chat_success_buddy_remove			^279* Removed ^990{target}^279 from your friend list.
+chat_success_clan_promote			^279* Promoted ^990{target}^279 successfully.
+chat_success_clan_demote			^279* Demoted ^990{target}^279 successfully.
+chat_success_clan_remove			^279* Removed ^990{target}^279 from the clan.
+chat_success_clan_remove_self		^279* You have left the clan.
+chat_success_clan_name_tip			Clan Name and Tag are Available.
+chat_topic_change					^279* Topic changed to '^990{topic}^279'.
+chat_topic							^279* Topic is '^990{topic}^279'.
+chat_not_operator					^279* You do not have admin privileges in this channel.
+chat_user_kicked					^279* ^990{kickee}^279 was kicked from the channel by ^990{kicker}^279.
+chat_kicked							^279* You were kicked from the channel '^990{channel}^279' by ^990{kicker}^279.
+chat_user_banned					^279* ^990{banned}^279 was banned from the channel by ^990{banner}^279.
+chat_user_banned_no_name			^279* ^990{banned}^279 was banned from the channel.
+chat_channel_banned					^279* You were banned from the channel '^990{channel}^279' by ^990{banner}^279.
+chat_channel_banned_no_name			^279* You were banned from the channel '^990{channel}^279'.
+chat_user_unbanned					^279* ^990{unbanned}^279 was unbanned from the channel by ^990{unbanner}^279.
+chat_user_unbanned_no_name			^279* ^990{unbanned}^279 was unbanned from the channel.
+chat_unbanned						^279* You were unbanned from the channel '^990{channel}^279' by ^990{unbanner}^279.
+chat_unbanned_no_name				^279* You were unbanned from the channel '^990{channel}^279'.
+chat_banned_from_channel			^279* You are banned from the channel '^990{channel}^279'.
+chat_silenced						^279* You are silenced in this channel and cannot talk.
+chat_silence_lifted					^279* Your silence has been lifted in the channel '^990{channel}^279'.
+chat_silence_placed					^279* You have been silenced by ^990{name}^279 in the channel '^990{channel}^279' for {duration} minute(s).
+chat_user_silence_placed			^279* ^990{silenced}^279 has been silenced by ^990{name}^279 for {duration} minute(s).
+chat_muted							^279* You are currently muted and are unable to communicate.
+chat_message_all					^900{name}:^999 {message}
+chat_maintenance					^900Server Message:^999 The chat server will be taken offline briefly while we perform maintenance on the server.  During this time the matchmaking service and other chat server functionality will be disabled.  We apologize in advance for this interruption and will have the service restored as soon as possible.
+chat_matchmaking_disabled			^900Server Message:^999 The matchmaking service has been temporarily disabled.  We apologize in advance for this interruption and will re-enable matchmaking as soon as possible.
+chat_roll_message					{player} rolled {low} {high} and got {number}.
+chat_current_time					The current time is: {time}.
+chat_current_ping					Current ping: {ping}.
+chat_adding_banlist					^279* Adding ^990{name}^279 to your banlist...
+chat_failed_banlist_add				^279* Failed to add ^990{target}^279 to your banlist.
+chat_failed_banlist_add_self		^279* You cannot add yourself to your banlist.
+chat_failed_banlist_add_duplicate	^279* That user is already on your banlist.
+chat_failed_banlist_add_reason		^279* Failed to add ^990{target}^279 to your banlist: {reason}
+chat_failed_banlist_remove			^279* Failed to remove ^990{target}^279 from your banlist.
+chat_failed_banlist_remove_not_found	^279* Failed to remove user from your banlist: User not found.
+chat_success_banlist_add				^279* Added ^990{target}^279 to your banlist. If ^990{target}^279 has griefed you, please use the Report-A-Player function so that their actions can be reviewed. Please note that the banlist only works in Public Games, and will not have any effect in Matchmaking.
+chat_success_banlist_remove				^279* Removed ^990{target}^279 from your banlist.
+chat_adding_ignore						^279* Adding ^990{name}^279 to your ignore list...
+chat_failed_ignore_add					^279* Failed to add ^990{target}^279 to your ignore list.
+chat_failed_ignore_add_self				^279* You cannot add yourself to your ignore list.
+chat_failed_ignore_add_duplicate		^279* That user is already on your ignore list.
+chat_failed_ignore_add_reason			^279* Failed to add ^990{target}^279 to your ignore list: {reason}
+chat_failed_ignore_remove				^279* Failed to remove ^990{target}^279 from your ignore list.
+chat_failed_ignore_remove_not_found		^279* Failed to remove user from your ignore list: User not found.
+chat_success_ignore_add					^279* Added ^990{target}^279 to your ignore list. If ^990{target}^279 has griefed you, please use the Report-A-Player function so that their actions can be reviewed.
+chat_success_ignore_remove				^279* Removed ^990{target}^279 from your ignore list.
+chat_user_on_banlist					^279* ^990{name}^279 is on your banlist: ^999{reason}
+chat_admin_level_none				No Admin Status
+chat_admin_level_officer			Channel Officer
+chat_admin_level_leader				Channel Leader
+chat_admin_level_administrator		Channel Administrator
+chat_admin_level_staff				Staff
+chat_promote_success				^279* ^990{name}^279 has been promoted to ^990{rank}^279 by ^990{promoter}^279.
+chat_promote_failure				^279* You do not have sufficient privileges to promote that user further.
+chat_demote_success					^279* ^990{name}^279 has been demoted to ^990{rank}^279 by ^990{demoter}^279.
+chat_demote_failure_too_low			^279* That user is already at the lowest admin privilege level for this channel.
+chat_demote_failure					^279* You do not have sufficient privileges to demote that user further.
+chat_not_in_channel					^279* That user is not in this channel.
+chat_im_user_offline				^279* ^990{name}^279 is now offline.
+chat_im_user_online					^279* ^990{name}^279 is now online.
+chat_reject_unknown					^279* You were disconnected from the chat server.
+chat_version_mismatch				^279* Your version does not match the chat server's version.
+chat_reject_auth					^279* The chat server was not able to authorize your account.
+chat_reject_account_sharing			^279* The chat server detected another player is currently logged in with an account that is linked (via sub-accounts) to yours.  This may indicate you are sharing your account with other players which is a violation of the Terms of Service.  Please contact support@heroesofnewerth.com to resolve this.
+chat_no_permissions					^279* Your administration privileges in this channel are not high enough to do that.
+chat_auth_enabled					^279* Authorization has been enabled for this channel, you must now be on the authorized list to join.
+chat_auth_disabled					^279* Authorization has been disabled for this channel, all users can now join.
+chat_auth_add_success				^279* ^990{name}^279 has been added to the authorization list.
+chat_auth_add_failure				^279* ^990{name}^279 is already on the authorization list.
+chat_auth_remove_success			^279* ^990{name}^279 has been removed from the authorization list.
+chat_auth_remove_failure			^279* ^990{name}^279 is not on the authorization list.
+chat_password_change				^279* The password for this channel has been changed by ^990{name}^279.
+chat_password_required				^279* The channel ^990{name}^279 requires a password.
+chat_error_clan_rank				^279* You need a higher clan rank to perform that action.
+chat_error_clan_not_found			^279* The clan member named ^990{name}^279 could not be found.
+chat_clan_invite_sent				^279* Sending clan invite to ^990{name}^279...
+chat_failed_clan_invite_in_clan			^279* ^990{name}^279 is already in a clan.
+chat_clan_invite_received				^279* ^990{name}^279 has invited you to join the clan ^990{clan}^279.
+chat_clan_invite_rejected				^279* ^990{name}^279 rejected your clan invite.
+chat_clan_invite_failed_online			^279* That user is not online.
+chat_clan_invite_failed_clan			^279* That user is already in a clan.
+chat_clan_invite_failed_invite			^279* That user has already been invited to join a clan.
+chat_clan_invite_failed_permissions		^279* You do not have sufficient privileges to invite a user to your clan.
+chat_clan_invite_failed_unknown			^279* Failed to add ^990{name}^279 to the clan.
+chat_clan_invite_failed_unknown_self	^279* Failed to add you to the clan.
+chat_clan_new_user						^279* ^990{name}^279 has joined your clan.
+chat_clan_new_user_self					^279* You have joined the clan ^990{clan}^279.
+chat_clan_create_fail_clan				^279* You must leave your current clan before creating one.
+chat_clan_create_fail_param				^279* Failed to create clan - Missing parameters!
+chat_clan_create_fail_tag				^279* Failed to create clan - Clan tag is too long.
+chat_clan_create_fail_in_clan			^279* Failed to create clan - ^990{name}^279 is already in a clan.
+chat_clan_create_fail_duplicate			^279* Failed to create clan - Duplicate founding members are not allowed.
+chat_clan_create_fail_invite			^279* Failed to create clan - ^990{name}^* has an outstanding clan invite.
+chat_clan_create_fail_not_found			^279* Failed to create clan - ^990{name}^* was not found, is already in a clan, or is not accepting clan invites.
+chat_clan_create_fail_clan_name			^279* Failed to create clan - Your clan name was rejected. Ensure it is 1 to 32 alphanumeric characters and not already in use.
+chat_clan_create_fail_tag				^279* Failed to create clan - Your clan tag was rejected. Ensure it is 1 to 4 alphanumeric characters and not already in use.
+chat_clan_create_fail_unknown			^279* Failed to create clan.
+chat_clan_create_fail_time				^279* Failed to create clan - The time given to the founding members to accept has expired.
+chat_clan_create_result_fail_clan		You must leave your current clan before creating one.
+chat_clan_create_result_fail_param		Failed - Missing parameters!
+chat_clan_create_result_fail_tag		Failed - Clan tag is too long.
+chat_clan_create_result_fail_in_clan	Failed - ^990{name}^* is already in a clan.
+chat_clan_create_result_fail_duplicate	Failed - Duplicate founding members.
+chat_clan_create_result_fail_invite		Failed - ^990{name}^* has an outstanding clan invite.
+chat_clan_create_result_fail_not_found	Failed - ^990{name}^* not found.
+chat_clan_create_result_fail_clan_name	Failed - Your clan name was rejected.
+chat_clan_create_result_fail_tag		Failed - Your clan tag was rejected.
+chat_clan_create_result_fail_unknown	Failed to create clan.
+chat_clan_create_result_fail_time		Failed - Time expired.
+chat_clan_create_sent					^279* Clan creation request submitted, waiting on member approval.
+chat_clan_create_accept					^279* ^990{name}^279 accepted your clan creation request.
+chat_clan_create_reject					^279* ^990{name}^279 rejected your clan creation request.
+chat_clan_create_result_reject			Failed - ^990{name}^* rejected your request.
+chat_clan_create_success				^279* Your clan has been created successfully.
+chat_clan_create_result_success			Success! Your clan has been created.
+chat_clan_left							^279* ^990{name}^279 has left the clan.
+chat_clan_left_self						^279* You have left the clan.
+chat_clan_kick							^279* ^990{changer}^279 has kicked ^990{name}^279 out of the clan.
+chat_clan_kick_self						^279* ^990{changer}^279 has kicked you out of the clan.
+chat_clan_joined						^279* ^990{name}^279 has joined the clan.
+chat_clan_rank_change					^279* ^990{changer}^279 has changed ^990{name}^279's rank to ^990{rank}^279.
+chat_clan_rank_change_self				^279* ^990{changer}^279 has changed your rank to ^990{rank}^279.
+chat_clan_rank_none						Not In Clan
+chat_clan_rank_member					Member
+chat_clan_rank_officer					Officer
+chat_clan_rank_leader					Leader
+chat_clan_no_clan						^279* You are not in a clan.
+chat_tourn_match_ready					^279* The match for the tournament you are scheduled to play in, ^990{name}^279, is now ready to join. Use the tournament section in the Community and Clan panel to join.
+chat_unable_to_join_group				Unable to join the matchmaking group because you are currently in a game or a replay.
+chat_unable_to_join_scheduled_match		Unable to join the scheduled match because you are currently in a game or a replay.
+chat_group_queue_rejoin					^279* Your group was placed back into the queue at the previous wait time the group leader waited...
+chat_group_invite_broadcast				^279* ^990{invited}^279 was invited to join the matchmaking group by ^990{inviter}^279...
+chat_group_max_match_fidelity_diff		^279* The match fidelity value you selected can't be used when there is a large skill difference among players in your group.
+chat_sending_player_spectate_request	^279* Request sent to ^990{name}^279.
+chat_player_spectate_denied				^279* ^990{name}^279 declined your request or didn't respond.
+chat_player_spectate_denied_full_server	^279* The server ^990{name}^279 is on has already reached the limit of player spectators and mentors.
+chat_player_spectate_denied_full_player	^279* ^990{name}^279 has already reached the limit of player spectators and mentors
+chat_player_spectate_denied_too_deep	^279* ^990{name}^279 is mentoring or spectating a player already. You cannot mentor or spectate a player who is already mentoring or spectating.
+chat_invited_to_game					^900* You've been invited to the game '{gamename}' by {inviter}.
+chat_not_on_team						^900* You cannot team chat, you are not currently on a team!
+chat_mods_detected						^900 WARNING:^999 Mods have been detected on your system and you will be unable to play in the match until they are removed.  If you do not remove them the game server will disconnect you immediately once the game begins.  For a list of all the modded files that were detected please look in the upper right corner of your screen for an exclamation point icon(!), clicking this icon will show you the files that need to be removed.
+
+
+chat_excessive_gameplay_message			Excessive game playing can interfere with normal daily life, please remember to take short breaks while playing long periods of time.
+chat_excessive_gameplay_1_hour			You've played 1 hour.
+chat_excessive_gameplay_2_hours			You've played 2 hours.
+chat_excessive_gameplay_fatigue			You've played too long and are now experiencing fatigue, your game benefits are now cut down to half.
+chat_excessive_gameplay_unhealthy		You've played long enough to experience unhealthy side effects, you will no longer receive any game benefits.
+
+// stats
+chat_stats_header				^492* Stats For ^982{name}^492
+chat_stats_body1				^492    Clan: ^999{clan_name}   ^982||   ^492    Lvl: ^999{level}   ^982||   ^492W: ^999{wins}^555({winpercent}) ^492L: ^999{losses} ^492Disc: ^999{disconnects}^555({leavepercent})
+chat_stats_body2				^492    K/D/A: ^999{kills} ^492/ ^999{deaths} ^492/ ^999{assists}   ^982||   ^492Exp / Min: ^999{expmin}   ^982||   ^492PSR: ^999{psr}
+
+// chat notifications
+chat_notification_cc_panel				Press F6 to open the Community & Clan Panel.
+chat_notification_buddy_online			{name} is online.
+chat_notification_buddy_offline			{name} is offline.
+chat_notification_buddy_joined_game		{name} has joined the game '{game}'.
+chat_notification_buddy_left_game		{name} has left the game '{game}'.
+chat_notification_clan_online			{name} is online.
+chat_notification_clan_offline			{name} is offline.
+chat_notification_clan_joined_game		{name} has joined the game '{game}'.
+chat_notification_clan_left_game		{name} has left the game '{game}'.
+chat_notification_clan_whisper			(Clan) {name}: {message}
+chat_notification_clan_whisper_sent		(Clan) {name}: {message}
+chat_notification_clan_new_user			{name} has joined your clan.
+chat_notification_clan_new_user_self	You have joined the clan {clan}.
+chat_notification_clan_left_self		You have left the clan.
+chat_notification_clan_left				{name} has left the clan.
+chat_notification_clan_joined			{name} has joined the clan.
+chat_notification_clan_rank_change		{changer} has changed ^990{name}^279's rank to ^990{rank}^279.
+chat_notification_clan_rank_change_self	{changer} has changed your rank to ^990{rank}^279.
+chat_notification_clan_kick				{changer} has kicked ^990{name}^279 out of the clan.
+chat_notification_clan_kick_self		{changer} has kicked you out of the clan.
+
+// chat commands
+chat_command_whisper				/whisper
+chat_command_whisper_short			/w
+chat_command_whisper_help			^279*^707 /whisper <name> <message>.
+chat_command_reply					/reply
+chat_command_reply_short			/r
+chat_command_reply_invalid			^279* No one has whispered you!
+chat_command_reply_help				^279*^707 /reply <message>.
+chat_command_buddy					/buddy
+chat_command_friend					/friend
+chat_command_buddy_short			/b
+chat_command_friend_short			/f
+chat_command_buddy_list				list
+chat_command_buddy_list_short		l
+chat_command_buddy_list_message		^279* Listing Buddies...
+chat_command_buddy_list_none		^279* You have no users on your friend list.
+chat_command_buddy_list_help		^279*^707 /friend list.
+chat_command_buddy_message			message
+chat_command_buddy_message_short	m
+chat_command_buddy_message_help		^279*^707 /friend message <message>.
+chat_command_buddy_add				add
+chat_command_buddy_add_short		a
+chat_command_buddy_add_help			^279*^707 /friend add <nick>.
+chat_command_buddy_delete			delete
+chat_command_buddy_delete_short		d
+chat_command_buddy_delete_help		^279*^707 /friend delete <nick>.
+chat_command_clan					/clan
+chat_command_clan_short				/c
+chat_command_clan_list				list
+chat_command_clan_list_short		l
+chat_command_clan_list_message		^279* Listing Clan Members...
+chat_command_clan_list_none			^279* You have no users in your clan.
+chat_command_clan_list_help			^279*^707 /clan list.
+chat_command_clan_message			message
+chat_command_clan_message_short		m
+chat_command_clan_message_help		^279*^707 /clan message <message>.
+chat_command_clan_promote			promote
+chat_command_clan_promote_short		p
+chat_command_clan_promote_help		^279*^707 /clan promote <name>.
+chat_command_clan_demote			demote
+chat_command_clan_demote_short		d
+chat_command_clan_demote_help		^279*^707 /clan demote <name>.
+chat_command_clan_remove			remove
+chat_command_clan_remove_short		r
+chat_command_clan_remove_help		^279*^707 /clan remove <name>.
+chat_command_clan_invite			invite
+chat_command_clan_invite_short		i
+chat_command_clan_invite_help		^279*^707 /clan invite <name>.
+chat_command_clan_leave				leave
+chat_command_clan_leave_short		l
+chat_command_clan_leave_help		^279*^707 /clan leave.
+chat_command_clear					/clear
+chat_command_clear_short			/cl
+chat_command_join					/join
+chat_command_join_help				^279*^707 /join <channel> "password".  (surround password with quotes)
+chat_command_join_short				/j
+chat_command_invite					/invite
+chat_command_invite_short			/i
+chat_command_invite_help			^279*^707 /invite <user>.
+chat_command_whois					/whois
+chat_command_whois_short			/who
+chat_command_whois_help				^279*^707 /whois <user>.
+chat_command_stats					/stats
+chat_command_stats_short			/s
+chat_command_stats_pop				pop
+chat_command_stats_help				^279*^707 /stats <user> [pop].
+chat_command_joingame				/joingame
+chat_command_joingame_short			/jg
+chat_command_joingame_buddy			friend
+chat_command_joingame_buddy_short	f
+chat_command_joingame_name			name
+chat_command_joingame_name_short	n
+chat_command_joingame_ip			ip
+chat_command_joingame_ip_short		i
+chat_command_joingame_buddy_help	^279*^707 /joingame friend <name>
+chat_command_joingame_name_help		^279*^707 /joingame name <name>
+chat_command_joingame_ip_help		^279*^707 /joingame ip <address>
+chat_command_joingame_buddy_failed	^279* Failed to join game - Either the user does not exist, or they are not in a game.
+chat_command_topic					/topic
+chat_command_topic_short			/t
+chat_command_topic_help				^279*^707 /topic
+chat_command_topic_set_help			^279*^707 /topic <topic> (Requires channel admin privileges)
+chat_command_kick					/kick
+chat_command_kick_short				/k
+chat_command_kick_help				^279*^707 /kick <user> (Requires channel admin privileges)
+chat_command_ban					/ban
+chat_command_ban_help				^279*^707 /ban <user> (Requires channel admin privileges)
+chat_command_unban					/unban
+chat_command_unban_help				^279*^707 /unban <user> (Requires channel admin privileges)
+chat_command_silence				/silence
+chat_command_silence_help			^279*^707 /silence <user> <duration in min> (Requires channel admin privileges)
+chat_command_message_all_long		/messageall
+chat_command_message_all			/msgall
+chat_command_banlist				/banlist
+chat_command_banlist_short			/bl
+chat_command_banlist_list			list
+chat_command_banlist_list_short		l
+chat_command_banlist_list_message	^279* Listing Bans...
+chat_command_banlist_list_none		^279* You have no users on your banlist.
+chat_command_banlist_list_entry		^999{name}: ^888{reason}
+chat_command_banlist_list_help		^279*^707 /banlist list.
+chat_command_banlist_add			add
+chat_command_banlist_add_short		a
+chat_command_banlist_add_help		^279*^707 /banlist add <nick> <reason>.
+chat_command_banlist_delete			delete
+chat_command_banlist_delete_short	d
+chat_command_banlist_delete_help	^279*^707 /banlist delete <nick>.
+chat_command_ignorechat				/ignorechat
+chat_command_ignorechat_short		/ic
+chat_command_ignorechat_enemy_all_on	^279* You are now ignoring 'All' chat from the enemy team.
+chat_command_ignorechat_all_on		^279* You are now ignoring 'All' chat from both teams.
+chat_command_ignorechat_team_on		^279* You are now ignoring 'Team' chat.
+chat_command_ignorechat_every_on	^279* You are now ignoring both 'All' and 'Team' chat.
+chat_command_ignorechat_off			^279* You are no longer ignoring any chat.
+chat_command_friendlychat			/friendlychat
+chat_command_friendlychat_short		/fc
+chat_command_friendlychat_on		^279* You are now only accepting messages from players in your clan or on your friend list.
+chat_command_friendlychat_off		^279* You are now accepting messages from all players.
+chat_command_ignore					/ignore
+chat_command_ignore_list			list
+chat_command_ignore_list_short		l
+chat_command_ignore_list_message	^279* Listing Ignores...
+chat_command_ignore_list_none		^279* You have no users on your ignore list.
+chat_command_ignore_list_entry		^999{name}
+chat_command_ignore_list_help		^279*^707 /ignore list.
+chat_command_ignore_add				add
+chat_command_ignore_add_short		a
+chat_command_ignore_add_help		^279*^707 /ignore add <nick>.
+chat_command_ignore_delete			delete
+chat_command_ignore_delete_short	d
+chat_command_ignore_delete_help		^279*^707 /ignore delete <nick>.
+chat_command_notes					/notes
+chat_command_notes_short			/n
+chat_command_notes_list				list
+chat_command_notes_list_short		l
+chat_command_notes_list_message		^279* Listing Notes...
+chat_command_notes_list_none		^279* You have no entries in your notes.
+chat_command_notes_list_entry		^279{id}: ^888{note}
+chat_command_notes_list_help		^279*^707 /notes list.
+chat_command_notes_add				add
+chat_command_notes_add_success		^279* Note added successfully.
+chat_command_notes_add_short		a
+chat_command_notes_add_help			^279*^707 /notes add <note>.
+chat_command_notes_delete			delete
+chat_command_notes_delete_short		d
+chat_command_notes_delete_help		^279*^707 /notes delete <id>.
+chat_command_notes_delete_success	^279* Note deleted successfully.
+chat_command_notes_delete_invalid	^279* Invalid note ID.
+chat_command_promote				/promote
+chat_command_promote_short			/p
+chat_command_promote_help			^279*^707 /promote <user> (Requires channel admin privileges)
+chat_command_demote					/demote
+chat_command_demote_short			/d
+chat_command_demote_help			^279*^707 /demote <user> (Requires channel admin privileges)
+chat_command_auth					/auth
+chat_command_auth_short				/a
+chat_command_auth_list				list
+chat_command_auth_list_short		l
+chat_command_auth_list_message		^279* Listing Authorized Users...
+chat_command_auth_list_none			^279* There are no authorized users for this channel.
+chat_command_auth_list_entry		^999{name}
+chat_command_auth_list_help			^279*^707 /auth list.
+chat_command_auth_add				add
+chat_command_auth_add_short			a
+chat_command_auth_add_help			^279*^707 /auth add <nick>.
+chat_command_auth_delete			delete
+chat_command_auth_delete_short		d
+chat_command_auth_delete_help		^279*^707 /auth delete <nick>.
+chat_command_auth_enable			enable
+chat_command_auth_enable_help		^279*^707 /auth enable (Only allows users on the auth list to join the channel).
+chat_command_auth_disable			disable
+chat_command_auth_disable_help		^279*^707 /auth disable.
+chat_command_password				/password
+chat_command_password_short			/pass
+chat_command_password_set_help		^279*^707 /password (Clears password, requires channel admin privileges)
+chat_command_password_clear_help	^279*^707 /password <password> (Sets password, requires channel admin privileges)
+chat_command_roll					/roll
+chat_command_roll_help				^279*^707 /roll <low> <high> (Rolls a number between low and high, (1 through 32,767)).
+chat_command_emote					/emote
+chat_command_emote_help				^279*^707 /emote <emote message>.
+chat_command_emote_short			/em
+chat_command_time					/time
+chat_command_ping					/ping
+chat_command_matchup				/matchup
+chat_command_matchup_short			/ma
+chat_command_matchup_help			Matchup information is only available once the match has started.
+chat_command_gameinfo				/gameinfo
+chat_command_gameinfo_short			/gi
+chat_command_ping_all				/pingall
+chat_command_ping_all_short			/pa
+chat_command_available				/available
+chat_command_available_message		^279* Your chat status is now 'available'.
+chat_command_afk					/afk
+chat_command_afk_message			^279* Your chat status is now 'away from keyboard': {reason} 
+chat_command_dnd					/dnd
+chat_command_dnd_message			^279* Your chat status is now 'do not disturb': {reason}
+
+chat_command_weather				/weather
+chat_command_weather_intro			^279* Type a weather command:
+chat_command_weather_entry			^279* /weather {name}
+chat_command_weather_selected		^279* Selected weather effect '{name}'
+
+chat_command_server					/serverchat
+chat_command_server_short			/sc
+chat_command_admin_pause			/adminpause
+chat_command_admin_unpause			/adminunpause
+
+chat_command_toast 					/toast
+
+chat_command_admin_cmd				/admincmd
+chat_command_admin_cmd_help			^279*^707 /admincmd <command...> to send a remote command.
+
+chat_command_help					/help
+chat_command_help_short				/h
+chat_command_character				/
+chat_command_invalid_format			^279* Invalid command format. Proper format is:
+chat_command_invalid_format_multi	^279* Invalid command format. Proper format is one of:
+chat_command_invalid_command		^279* Invalid command. Type {helpcommand} for a list of commands.
+chat_command_help_valid				^279* Valid commands are:
+chat_command_help_whisper			^279*^707 /whisper <nickname> <message>^279  -Whispers to a user.
+chat_command_help_reply				^279*^707 /reply <message>^279               -Replies to last whisper.
+chat_command_help_buddy				^279*^707 /friend <command> <arguments>^279   -Various friend-related commands.
+chat_command_help_clan				^279*^707 /clan <command> <arguments>^279    -Various clan-related commands.
+chat_command_help_join				^279*^707 /join <channel> "password"^279     -Joins the specified channel (Optionally specify a password in quotes).
+chat_command_help_clear				^279*^707 /clear^279                         -Clears the chat buffer.
+chat_command_help_invite			^279*^707 /invite <user>^279                 -Invites the specified user to the current game.
+chat_command_help_whois				^279*^707 /whois <user>^279                  -Gets information on the specified user.
+chat_command_help_stats				^279*^707 /stats <user> [pop]^279            -Gets stats for the specified user (Optionally include "pop" to drop stats down).
+chat_command_help_joingame			^279*^707 /joingame <type> <param>^279       -Join a game.
+chat_command_help_topic				^279*^707 /topic [topic]^279                 -Views or sets current channel topic
+chat_command_help_kick				^279*^707 /kick <user>^279                   -Kicks user from the channel (Requires channel admin privileges).
+chat_command_help_ban				^279*^707 /ban <user>^279                    -Bans user from the channel (Requires channel admin privileges).
+chat_command_help_unban				^279*^707 /unban <user>^279                  -Unbans user from the channel (Requires channel admin privileges).
+chat_command_help_silence			^279*^707 /silence <user> <duration>^279     -Silences a user for <duration> minutes (Requires channel admin privileges).
+chat_command_help_promote			^279*^707 /promote <user>^279                -Promote target user (Requires channel admin privileges)
+chat_command_help_demote			^279*^707 /demote <user>^279                 -Demote target user (Requires channel admin privileges)
+chat_command_help_banlist			^279*^707 /banlist <command> <arguments>^279 -Banlist management commands.
+chat_command_help_ignore			^279*^707 /ignore <command> <arguments>^279  -Ignore list management commands.
+chat_command_help_ignorechat		^279*^707 /ignorechat^279					 -Toggles ignoring 'Team' or 'All' chat.
+chat_command_help_friendlychat		^279*^707 /friendlychat^279					 -Toggles ignoring messages from players not in your clan or on your friend list.
+chat_command_help_notes				^279*^707 /notes <command> <arguments>^279   -Note management commands.
+chat_command_help_auth				^279*^707 /auth <command> <arguments>^279    -Channel authorization user list management (Requires channel admin privileges)
+chat_command_help_password			^279*^707 /password <password>^279           -Sets current channel password (Requires channel admin privileges)
+chat_command_help_password_clear	^279*^707 /password^279						 -Clears current channel password (Requires channel admin privileges)
+chat_command_help_roll				^279*^707 /roll <low> <high>^279			 -Rolls a number between low and high, (1 through 32,767).
+chat_command_help_emote				^279*^707 /emote <message>^279				 -Emotes a message from your username.
+chat_command_help_time				^279*^707 /time^279                          -Prints your current system time.
+chat_command_help_ping				^279*^707 /ping^279 (in game only)           -Prints your current ping to the game server.
+chat_command_help_matchup			^279*^707 /matchup^279 (in game only)        -Prints the team/name/color/hero of players in the current game.
+chat_command_help_gameinfo			^279*^707 /gameinfo^279 (in game only)       -Prints some information about the current game.
+chat_command_help_available			^279*^707 /available^279					 -Toggles chat status to 'available'.
+chat_command_help_afk				^279*^707 /afk <afk message>^279			 -Toggles chat status to 'away from keyboard', automatically replies to whispers with the message specified.
+chat_command_help_dnd				^279*^707 /dnd <dnd message>^279			 -Toggles chat status to 'do not disturb', stops incoming whispers from being sent to you and automatically replies to whispers with the message specified.
+chat_command_help_weather			^279*^707 /weather^279 (in game only)        -Set weather effect
+chat_command_help_misc				^279* Type any command in with no arguments for information on how to use it.
+
+
+bullet_comment_time_check_fail		^279* Failed to send: please wait {waitSec} seconds
+bullet_comment_censor_check_fail	^279* Failed to send: contains sensitive word
+bullet_comment_disconnected			^279* Disconnected from server.
+bullet_comment_muted				^279* Comments are forbiddened for this match.
+
+//End
