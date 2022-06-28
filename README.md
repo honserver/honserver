@@ -18,3 +18,10 @@ The server still has some limitations/problems
 # No login UI mod
 
 Copy the `ui/` and `stringtables/` to the `game/` folder in your HoN install. Edit `stringtables/client_messages_en.str` (notepad works) and replace Maliken in the first line with your game name.
+Things to get fixed:
+1. Ping/team chat for everyone not only the last player
+2. All game modes
+3. Server discovery
+4. TBD
+
+This is my own research on how we can play better public HoN starting from the initial honserver. It is 100% based off the client files.
